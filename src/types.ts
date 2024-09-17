@@ -4,8 +4,8 @@ type Headers = Record<string, string>;
  */
 export interface CloudFunctionContext {
 	req: {
-		bodyText: string;
-		bodyJson: object;
+		bodyRaw: string;
+		body: string;
 		headers: Headers;
 		scheme: string;
 		method: "GET" | "POST" | "PUT" | "DELETE" | "PATCH";
