@@ -1,6 +1,6 @@
 {
 	"name": "node-appwrite-utils",
-	"version": "0.1.0rc1",
+	"version": "0.1.0rc2",
 	"description": "An unofficial library with utilities and types for Appwrite cloud functions.",
 	"main": "dist/index.js",
 	"type": "module",
